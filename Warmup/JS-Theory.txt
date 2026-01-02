@@ -1,0 +1,45 @@
+1 --> Why Languages?
+2 --> Interpreted vs compiled Languages
+3 --> Why JS better than other Languages
+4 --> Strict vs Dynamic Languages
+5 --> Single Thread nature of JS
+6 --> Simple Premitives in JS
+7 --> Complex Premitives in JS
+8 --> Function
+9 --> Callback functions, event loops, callback queue, Asyncronous programming
+10 --> Callback hell and promises
+
+
+
+1. Why Languages?
+
+Languages are used to write applications.
+Developers write high level logic in these languages and then the language compiler compiles the logic in 0's and 1's
+
+
+2. Interpreted vs compiled Languages
+
+ Compiler --> Compiler converts the high level developer frienfly code into 0's and 1's
+
+     write code --> Compiler converts to 0 & 1 --> Run the compiled code
+
+ INTERPRETED --> JS is a Interpreted language. we dont convert the code in 0's and 1's we go line by line
+
+       Compiled.                                         Interpreted.
+    1. First need to compile and then need to Run.     1. Usually go line by line
+    2. usually wont compile if there is a error.       2. Can run partially if there is error in code.
+       in code.                                        3. Example:- Python,JS
+    3. Example:- C,C++,JAVA,RUST,GOLANG
+
+
+3. Why JS better than other Languages
+
+Browsers can only understanf HTML,CSS & JS
+Thanks to nodejs we can use JS to build backend as well
+
+
+5. Single Thread nature of JS.
+
+JS is single threaded i.e. it will only use one single core at a time
+
+
