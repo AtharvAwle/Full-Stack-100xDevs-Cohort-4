@@ -38,3 +38,13 @@ for(let i = 0 ; i < arr3.length/2 ; i++){
     j--;
 }
 console.log(arr3)
+
+
+// 2 --> Objects
+
+const user1 = {
+    FirstName : "Atharv",
+    gender : "Male",
+    age : 21
+}
+console.log(user1["gender"])
