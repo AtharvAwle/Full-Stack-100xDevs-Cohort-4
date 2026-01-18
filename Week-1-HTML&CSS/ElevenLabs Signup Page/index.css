@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: white;
+    background-color: rgb(255, 247, 247);
+    font-family: 'Space Grotesk';
    
 }
 
@@ -13,11 +14,63 @@ svg{
     height: 13px;
 }
 
+hr{
+   border: none;
+    height: 1px;
+    background-color: rgb(221, 221, 221);
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(226, 226, 226);
+    width: 250px;
+}
+
+h3{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
 .main{
     min-height: 100vh;
     min-width: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
+.mid{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.glogo{
+    height: 18px;
+    margin-right: 40px;
+}
+
+
+.btn1{
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 1px solid rgb(202, 202, 202);
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 20px;
+}
+
+.btn2{
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        background-color: rgb(162, 162, 162);
+        color: white;
+        font-size: 12px;
+}
+
+.x{
+    font-size: 15px;
+    font-weight: bold;
+}
