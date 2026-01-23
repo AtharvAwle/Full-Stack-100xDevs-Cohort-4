@@ -1,0 +1,35 @@
+# 1. Interpreted
+
+ JavaScript is an interpreted language, meaning it's executed line-by-line at runtime by the JavaScript engine in the browser or server environment, rather than being compiled into machine code beforehand.
+
+
+C++ -------> BINARY -------->Runs on machine. (Compiled language)
+JavaScript ----------------->Runs on machine. (Interpreted language)
+
+**Upsides -** 
+1. There is one less step to do before running your code
+
+**Downsides -** 
+1. Performance Overhead:
+2. More prone to runtime errors
+
+
+
+# 2. Dynamically Typed
+
+ Variables in JavaScript are not bound to a specific data type. Types are determined at runtime and can change as the program executes
+
+ we do not have to explicitly give the datatype to a variable in JS 
+
+
+
+ # 3. Single threaded
+
+JavaScript executes code in a single-threaded environment, meaning it processes one task at a time.
+Only uses one CPU for execution one program
+
+
+
+# 4. Garbage collected
+
+JavaScript automatically manages memory allocation and deallocation through garbage collection, which helps prevent memory leaks by automatically reclaiming memory used by objects no longer in use.
